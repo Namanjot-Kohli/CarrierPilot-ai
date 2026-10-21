@@ -80,7 +80,7 @@ Valid structure for JSON:
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userMessage }
         ],
-        model: 'llama-3.3-70b-versatile',
+        model: 'openai/gpt-oss-120b',
         temperature: 0.7,
         max_tokens: 2048
       });
@@ -110,7 +110,7 @@ Valid structure for JSON:
       const resultObj = {
         response: responseText,
         agentsUsed: ['career_mentor'], 
-        plan: 'Groq Llama-3 Single-pass execution',
+        plan: 'Groq openai/gpt-oss-120b Single-pass execution',
         reasoning: 'Utilized Groq API for lightning fast responses'
       };
       
