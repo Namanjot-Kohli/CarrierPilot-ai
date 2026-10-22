@@ -51,9 +51,9 @@ const Landing = () => {
       <nav className="absolute top-0 w-full z-50 px-6 py-4 flex justify-between items-center max-w-7xl mx-auto left-0 right-0">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white font-bold text-xl">
-            C
+            G
           </div>
-          <span className="font-bold text-xl tracking-tight">CareerPilot AI</span>
+          <span className="font-bold text-xl tracking-tight">Guidance Pilot</span>
         </div>
         <div className="flex items-center gap-4">
           <Link to="/login" className="text-sm font-medium hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
@@ -148,7 +148,7 @@ const Landing = () => {
       <section className="py-24 px-6 relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">How CareerPilot AI Works</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">How Guidance Pilot Works</h2>
             <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto text-lg">
               A simple process to accelerate your professional growth.
             </p>
@@ -187,7 +187,7 @@ const Landing = () => {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to accelerate your career?</h2>
           <p className="text-indigo-100 text-lg mb-10">
-            Join thousands of professionals using CareerPilot AI to navigate their career paths with confidence.
+            Join thousands of professionals using Guidance Pilot to navigate their career paths with confidence.
           </p>
           <Link to="/signup">
             <Button size="lg" className="bg-white text-indigo-600 hover:bg-slate-50 font-bold px-8 py-4 text-lg">
@@ -199,7 +199,7 @@ const Landing = () => {
 
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-12 text-center border-t border-slate-800">
-        <p>© {new Date().getFullYear()} CareerPilot AI. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Guidance Pilot. All rights reserved.</p>
       </footer>
     </div>
   );

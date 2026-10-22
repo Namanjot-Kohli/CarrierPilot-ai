@@ -1,4 +1,4 @@
-# 🚀 CareerPilot AI
+# 🚀 Guidance Pilot
 
 **An AI-powered career advisor that helps students and professionals discover suitable careers, identify skill gaps, generate personalized learning roadmaps, recommend projects & certifications, and answer career-related questions.**
 

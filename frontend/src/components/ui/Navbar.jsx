@@ -27,7 +27,7 @@ export const Navbar = ({ onMenuClick }) => {
                 <HiOutlineRocketLaunch size={20} />
               </div>
               <span className="font-bold text-xl text-slate-900 dark:text-white hidden sm:block">
-                CareerPilot AI
+                Guidance Pilot
               </span>
             </Link>
           </div>

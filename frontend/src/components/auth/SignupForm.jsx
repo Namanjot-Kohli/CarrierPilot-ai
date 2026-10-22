@@ -75,7 +75,7 @@ const SignupForm = () => {
           Create Account
         </h2>
         <p className="text-slate-600 dark:text-slate-400">
-          Join CareerPilot AI today
+          Join Guidance Pilot today
         </p>
       </div>
 

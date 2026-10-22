@@ -19,7 +19,7 @@ const Login = () => {
             <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
               <HiOutlineRocketLaunch className="w-7 h-7" />
             </div>
-            <span className="text-2xl font-bold tracking-tight">CareerPilot AI</span>
+            <span className="text-2xl font-bold tracking-tight">Guidance Pilot</span>
           </div>
           <h1 className="text-4xl font-bold mb-6 leading-tight">
             Welcome back to your career command center.
@@ -35,9 +35,9 @@ const Login = () => {
         {/* Mobile Header */}
         <div className="lg:hidden absolute top-8 left-8 flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white font-bold">
-            C
+            G
           </div>
-          <span className="font-bold tracking-tight">CareerPilot AI</span>
+          <span className="font-bold tracking-tight">Guidance Pilot</span>
         </div>
 
         {/* Mobile background blob */}

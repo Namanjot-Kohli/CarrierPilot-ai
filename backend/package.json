@@ -1,7 +1,7 @@
 {
   "name": "careerpilot-ai-backend",
   "version": "1.0.0",
-  "description": "CareerPilot AI Backend",
+  "description": "Guidance Pilot Backend",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {

@@ -49,7 +49,7 @@ class AgentOrchestrator {
     }
 
     const systemPrompt = `
-You are CareerPilot AI, an expert career mentor, resume analyzer, and learning roadmap planner.
+You are Guidance Pilot, an expert career mentor, resume analyzer, and learning roadmap planner.
 Analyze the user's message and provide a comprehensive response.
 
 ${ctxString}

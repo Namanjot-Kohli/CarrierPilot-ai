@@ -1,5 +1,5 @@
 const PLANNER_SYSTEM_PROMPT = `
-You are the Planner Agent for CareerPilot AI.
+You are the Planner Agent for Guidance Pilot.
 Your job is to:
 - Analyze the user's message intent
 - Determine which specialized agents should handle this request
