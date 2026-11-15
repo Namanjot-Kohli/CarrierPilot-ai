@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { HiOutlineHome, HiOutlineChatBubbleLeftRight, HiOutlineMap, HiOutlineStar, HiOutlineUser, HiOutlinePlus } from 'react-icons/hi2';
+import { HiOutlineHome, HiOutlineChatBubbleLeftRight, HiOutlineMap, HiOutlineStar, HiOutlineUser, HiOutlinePlus, HiOutlineDocumentMagnifyingGlass } from 'react-icons/hi2';
 import { Button } from './Button.jsx';
 import { useAuth } from '../../hooks/useAuth.js';
 import { getInitials, getAvatarColor } from '../../utils/formatters.js';
@@ -12,6 +12,7 @@ export const Sidebar = ({ isOpen, onClose }) => {
   const navItems = [
     { path: '/dashboard', label: 'Dashboard', icon: <HiOutlineHome size={20} /> },
     { path: '/chat', label: 'AI Assistant', icon: <HiOutlineChatBubbleLeftRight size={20} /> },
+    { path: '/resume-analyzer', label: 'Resume Analyzer', icon: <HiOutlineDocumentMagnifyingGlass size={20} /> },
     { path: '/roadmaps', label: 'Roadmaps', icon: <HiOutlineMap size={20} /> },
     { path: '/recommendations', label: 'Recommendations', icon: <HiOutlineStar size={20} /> },
     { path: '/profile', label: 'Profile', icon: <HiOutlineUser size={20} /> },

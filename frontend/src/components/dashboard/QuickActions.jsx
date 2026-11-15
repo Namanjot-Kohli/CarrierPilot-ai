@@ -8,6 +8,10 @@ const QuickActions = () => {
   const navigate = useNavigate();
 
   const handleAction = (prompt) => {
+    if (prompt.title === 'Resume Analysis') {
+      navigate('/resume-analyzer');
+      return;
+    }
     navigate('/chat', { state: { initialPrompt: prompt.description } });
   };
 

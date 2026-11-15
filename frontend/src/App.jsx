@@ -15,6 +15,7 @@ import Chat from './pages/Chat';
 import Roadmaps from './pages/Roadmaps';
 import RoadmapDetail from './pages/RoadmapDetail';
 import Recommendations from './pages/Recommendations';
+import ResumeAnalyzer from './pages/ResumeAnalyzer';
 import Profile from './pages/Profile';
 import NotFound from './pages/NotFound';
 
@@ -37,6 +38,7 @@ function App() {
             <Route path="/roadmaps" element={<ProtectedRoute><Roadmaps /></ProtectedRoute>} />
             <Route path="/roadmaps/:id" element={<ProtectedRoute><RoadmapDetail /></ProtectedRoute>} />
             <Route path="/recommendations" element={<ProtectedRoute><Recommendations /></ProtectedRoute>} />
+            <Route path="/resume-analyzer" element={<ProtectedRoute><ResumeAnalyzer /></ProtectedRoute>} />
             <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
 
             {/* 404 Route */}

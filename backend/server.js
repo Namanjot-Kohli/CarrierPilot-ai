@@ -20,6 +20,7 @@ const chatRoutes = require('./routes/chatRoutes');
 const roadmapRoutes = require('./routes/roadmapRoutes');
 const recommendationRoutes = require('./routes/recommendationRoutes');
 const userRoutes = require('./routes/userRoutes');
+const resumeRoutes = require('./routes/resumeRoutes');
 
 const app = express();
 
@@ -57,6 +58,7 @@ app.use('/api/chat', chatRoutes);
 app.use('/api/roadmaps', roadmapRoutes);
 app.use('/api/recommendations', recommendationRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/resume', resumeRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
